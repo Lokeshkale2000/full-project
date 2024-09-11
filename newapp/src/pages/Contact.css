@@ -1,0 +1,70 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the title and container */
+    margin-top: 10rem;
+    margin-bottom: 40px; /* Add top margin to space the title from the top */
+}
+
+.contact-us-title {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 20px; /* Space between the title and the container */
+}
+
+.contact-container {
+    width: calc(100% - 60px); /* Reduce width by 30px on each side */
+    max-width: 540px; /* Adjust max-width to accommodate the reduced width */
+    padding: 1.5rem;
+    background-color: #f0e9e9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(233, 192, 192);
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form elements */
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+    width: 100%; /* Ensure form groups take full width */
+    max-width: 500px; /* Limit the width for better appearance */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    text-align: left; /* Align label text to the left */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(19, 172, 19);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; /* Add margin for spacing */
+}
+
+.contact-form button:hover {
+    background-color: green;
+}

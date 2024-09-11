@@ -1,0 +1,51 @@
+.create-user {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 12rem;
+  }
+  
+  .create-user h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-user form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-user label {
+    margin-bottom: 5px;
+  }
+  
+  .create-user input {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-user button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-user button:hover {
+    background-color: rgb(48, 198, 48);
+  }
+  .email-title{
+    padding-right: 48px;
+  }
+  .password-title{
+    padding-right: 18px;
+  }
